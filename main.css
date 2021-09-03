@@ -4,15 +4,16 @@ a {
 
 #portal-head {
     width: auto;
-    height: auto;
+    height: 50px;
     background-color: white;
     border-bottom : 1px solid gray;
     position :relative;
+    clear : both;
 }
 
 #main_logo {
-    padding: 10px;
     width: 20px;
+    padding: 10px;
     height: 30px;
     color: black;
     min-width: 50px;
@@ -36,11 +37,10 @@ a {
     background: #ff5858;
     border-right: 1px solid rgba(0, 0, 0, 0.07);
     bottom: 50px;
-    height: 100%;
+    height: 100vh;
     margin-bottom: -70px;
     margin-top: 0px;
     padding-bottom: 70px;
-    position: fixed;
     box-shadow: 0 0px 24px 0 rgb(0 0 0 / 6%), 0 1px 0px 0 rgb(0 0 0 / 2%);
 }
 
@@ -93,9 +93,9 @@ input[type="search"] {
 
 .left_sub_menu {
     position: fixed;
-    top: 50px;
+    top: 58px;
     width: 200px;
-    z-index: 10;
+    z-index: 10; 
     left: 45px;
     background: white;
     border-right: 1px solid rgba(0, 0, 0, 0.07);
@@ -104,7 +104,7 @@ input[type="search"] {
     margin-bottom: -70px;
     margin-top: 0px;
     padding-bottom: 0px;
-    box-shadow: 0 0px 24px 0 rgb(0 0 0 / 6%), 0 1px 0px 0 rgb(0 0 0 / 2%);
+    box-shadow: 0 0px 24px 0 rgb(0 0 0 / 6%), 0 1px 0px 0 rgb(0 0 0 / 2%); 
     color: black;
 }
 
